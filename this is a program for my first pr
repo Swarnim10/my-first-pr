@@ -1,0 +1,19 @@
+#include<iostream.h>
+using namespace std;
+
+
+int main()
+{
+
+    cout<<"Hello, World."<<endl;
+    char arr[27];
+    for(int i=1;i<=27;i++)
+    {
+        cin>>arr[i];
+    }
+    for(int i=1;i<=27;i++)
+    {
+        cout<<arr[i];
+    }
+    return 0;
+}
